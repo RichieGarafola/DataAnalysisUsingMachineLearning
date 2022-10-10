@@ -1,0 +1,6 @@
+-- What post/question received the most answers?
+
+select Top 1
+Id, Title, AnswerCount
+from Posts
+order by AnswerCount desc;

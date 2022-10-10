@@ -1,0 +1,10 @@
+-- For posts created in 2020, what were the top 10 tags?
+
+
+Select Top 10
+Tags, count(Id) AS Quantity
+from Posts
+where DATEPART(year, CreationDate)=2020
+and Tags is not null
+group by Tags
+ORDER BY count(Id) DESC;

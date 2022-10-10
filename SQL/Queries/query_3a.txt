@@ -1,0 +1,6 @@
+-- How many posts were created in 2017?
+
+SELECT 
+count(Id) AS PostsCreated2017
+FROM Posts
+WHERE year(CreationDate) = '2017';
