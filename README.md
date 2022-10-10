@@ -71,7 +71,7 @@ Visualization is essential, that being said a Streamlit Dashboard will be includ
 
 ## Instructions
 
-**File:** [Skills Assessment](./TickPick_Skills_Assessment_RichieGarafola.ipynb)
+**File:** [Skills Assessment](./MachineLearning.ipynb)
 
 ---
     
